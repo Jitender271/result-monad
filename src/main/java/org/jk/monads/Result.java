@@ -221,6 +221,7 @@ class FailureResult<T> extends Result<T> {
         return this;
     }
 
+
     @Override
     public Optional<T> toOptional() {
         return Optional.empty();
